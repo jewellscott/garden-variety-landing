@@ -82,6 +82,21 @@ select {
 }
 
 .site-head,
-.intro {
+.intro,
+.footer {
     background-color: #1F2937;
+}
+
+.offerings,
+.cta {
+  background-color: #FFFFFF
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+}
+
+.cta-card,
+.intro button {
+  background-color: #3882f6;
 }
