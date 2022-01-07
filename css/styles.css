@@ -176,6 +176,11 @@ blockquote p {
   display: flex;
 }
 
+.inner-inner-wrapper {
+  max-width: 600px;
+}
+
+
 .intro-right {
   display: flex;
   justify-content: end;
