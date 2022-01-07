@@ -100,3 +100,37 @@ select {
 .intro button {
   background-color: #3882f6;
 }
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero-secondary,
+.nav-link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.offering-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+blockquote p {
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+  font-size: 36px;
+}
