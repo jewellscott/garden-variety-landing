@@ -206,36 +206,44 @@ button {
 
 .cards {
   display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  margin-bottom: 12rem;
+  flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .card {
-  display: flex;
+  display: flex; 
   justify-content: center;
-  align-items: center;
-  list-style-type: none;
+  height: 250px;
 }
 
 figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  max-width: 160px;
+  max-height: 160px;
+}
+
+figcaption {
+  margin: 1rem 0;
+  text-align: center;
 }
 
 figcaption p {
-  text-align: center;
-  margin: 1rem;
+  width: 140px;
 }
 
+
 .box {
-  background-color: green;
-  height: 10rem;
-  width: 10rem;
+  width: 150px;
+  height: 150px;
+  background-color: #306A19;
+  background-image: linear-gradient(147deg, #306A19 0%, #112719 74%);
+  margin-bottom: 1rem;
   border-radius: 10%;
-  border: 5px black solid;
-  flex: auto;
 }
 
 /* cta */
@@ -253,6 +261,7 @@ figcaption p {
 .cta-card button {
   border: 2px solid #e5e7eb; 
   margin: 1rem;
+  justify-content: start;
 }
 
 /* testimonial */
