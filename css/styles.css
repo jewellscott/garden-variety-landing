@@ -101,7 +101,7 @@ body {
 }
 
 .cta-card,
-.intro button {
+ button {
   background-color: #3882f6;
 }
 
@@ -152,6 +152,13 @@ blockquote p {
   font-weight: 300;
   color: #1F2937;
   font-size: 36px;
+}
+
+button {
+  border: none;
+  padding: .3rem 2.5rem;
+  border-radius: .3rem;
+  color: #e5e7eb;
 }
 
 /* layout */
@@ -212,4 +219,21 @@ blockquote p {
   width: 10rem;
   border-radius: 10%;
   border: 5px black solid;
+}
+
+
+.cta-card {
+  width: 960px;
+  margin: 4rem auto;
+  padding: 2rem;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .5rem;
+  padding: 2rem 7rem;
+}
+
+.cta-card button {
+  border: 2px solid #e5e7eb;
 }
