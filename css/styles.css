@@ -87,7 +87,7 @@ body {
 
 .site-head,
 .intro,
-.footer {
+footer {
     background-color: #1F2937;
 }
 
@@ -257,4 +257,16 @@ blockquote .cite {
 .testimonial .inner-wrapper {
   display: flex;
   justify-content: flex-end;
+}
+
+footer {
+  margin-top: 6rem;
+  padding: 2rem;
+  text-align: center;
+  color: #f9faf8;
+  font-size: 1.2rem;
+}
+
+footer a {
+  color: #f9faf8;
 }
