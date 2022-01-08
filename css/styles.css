@@ -200,18 +200,29 @@ button {
 /* content */
 
 .cards {
-  list-style-type: none;
-  list-style-position: inside;
-  padding: 0;
-  gap: 4rem;
-  padding-left: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card {
   display: flex;
   justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }
 
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+figcaption p {
+  text-align: center;
+  margin: 1rem;
+}
 
 .box {
   background-color: green;
@@ -219,6 +230,7 @@ button {
   width: 10rem;
   border-radius: 10%;
   border: 5px black solid;
+  flex: auto;
 }
 
 /* cta */
