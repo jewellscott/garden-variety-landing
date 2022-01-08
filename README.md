@@ -2,7 +2,7 @@
 Garden Variety Landing Page
 
 #TODO
-[ ] Make photo responsive
-[ ] Make site responsive
+[~] Make photo responsive
+[X] Make CTA responsive
 [ ] Fix content flex issues
-[ ] Change colors
+[X] Change colors
