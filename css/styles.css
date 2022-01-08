@@ -237,3 +237,24 @@ button {
 .cta-card button {
   border: 2px solid #e5e7eb;
 }
+
+.testimonial {
+  margin: 6rem auto;
+  text-align: left;
+}
+blockquote {
+  padding: 5rem 6rem;
+  text-align: left;
+}
+
+blockquote .cite {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+.testimonial .inner-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
